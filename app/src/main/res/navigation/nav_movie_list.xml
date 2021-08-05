@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/movieDetails"
+    >
+
+    <action
+        android:id="@+id/action_global_to_movieDetails"
+        app:destination="@id/movieDetails"
+        app:popUpTo="@id/movieDetails"
+        app:popUpToInclusive="true"
+        />
+
+    <fragment
+        android:id="@+id/movieDetails"
+        android:name="com.andreromano.movies.ui.screens.movie_details.MovieDetailsFragment"
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_details"
+        >
+
+        <argument
+            android:name="movie"
+            app:argType="com.andreromano.movies.domain.model.Movie"
+            app:nullable="true"
+            android:defaultValue="@null"
+            />
+
+        <action
+            android:id="@+id/action_movieDetails_to_movieDetails"
+            app:destination="@id/movieDetails"
+            />
+
+    </fragment>
+
+</navigation>

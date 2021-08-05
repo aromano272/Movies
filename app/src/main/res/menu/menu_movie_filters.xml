@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_now_playing"
+        android:enabled="true"
+        android:title="@string/movie_filter_now_playing"
+        />
+    <item
+        android:id="@+id/mi_popular"
+        android:enabled="true"
+        android:title="@string/movie_filter_popular"
+        />
+    <item
+        android:id="@+id/mi_top_rated"
+        android:enabled="true"
+        android:title="@string/movie_filter_top_rated"
+        />
+    <item
+        android:id="@+id/mi_upcoming"
+        android:enabled="true"
+        android:title="@string/movie_filter_upcoming"
+        />
+</menu>

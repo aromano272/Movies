@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="paging_load_state_loading">Loading…</string>
+    <string name="movie_recommendation_state_empty">No recommendations available</string>
+    <string name="movie_recommendation_state_loading">Loading…</string>
+    <string name="movie_recommendation_state_error_header">An error has occurred</string>
+    <string name="paging_load_state_retry_button">Retry</string>
+    <string name="movie_details_overview_header">Overview</string>
+    <string name="movie_details_similar_movies_header">Similar movies</string>
+    <string name="movie_details_runtime">%1$d minutes</string>
+    <string name="movie_details_rating">%1$.1f (%2$d)</string>
+
+    <string name="movie_filter_now_playing">Now Playing</string>
+    <string name="movie_filter_popular">Popular</string>
+    <string name="movie_filter_top_rated">Top Rated</string>
+    <string name="movie_filter_upcoming">Upcoming</string>
+
+    <string name="error_unknown">An unknown error has occurred</string>
+    <string name="error_unauthorized">You don\'t have permission</string>
+    <string name="error_generic">An error has occurred</string>
+    <string name="error_network">A network error has occurred</string>
+    <string name="error_not_found">The thing you were looking for does not exist</string>
+</resources>
